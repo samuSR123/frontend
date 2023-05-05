@@ -11,16 +11,16 @@ function App() {
     const theme = createTheme({
       palette: {
         primary: {
-          light: "#63b8ff",
-          main: "#0989e3",
-          dark: "#005db0",
-          contrastText: "#000",
+          light: "#FF3232",
+          main: "#FF2D08",
+          dark: "#CF240A",
+          contrastText: "#fff",
         },
         secondary: {
-          main: "#4db6ac",
-          light: "#82e9de",
-          dark: "#00867d",
-          contrastText: "#000",
+          main: "#FFF10A",
+          light: "#FFF160",
+          dark: "#FEC208",
+          contrastText: "#fff",
         },
       },
     });
@@ -35,7 +35,7 @@ function App() {
         flexDirection="column"
       >
         <Router>
-          <Navbar></Navbar>
+          <Box sx={{marginBottom: '300px'}}><Navbar></Navbar></Box>
           <Routes>
             <Route>
               {appRoutes.map((route) => 
@@ -46,8 +46,8 @@ function App() {
                 />))}
             </Route>
           </Routes>
-          <Footer/>
-          </Router>
+          <Footer></Footer>
+        </Router>
       </Box>
     
     </ThemeProvider>

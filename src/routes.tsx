@@ -1,6 +1,7 @@
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Products from "./pages/Products";
+import Login from "./pages/Login";
 
 import { FC } from "react";
 interface Route {
@@ -32,6 +33,13 @@ export const routes: Array<Route> = [
         path: '/about',
         enabled: true,
         component: About
+    },
+    {
+        key: 'login-route',
+        title: 'Login',
+        path: '/login',
+        enabled: true,
+        component: Login
     },
 ]
 

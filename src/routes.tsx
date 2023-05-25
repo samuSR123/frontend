@@ -14,9 +14,16 @@ interface Route {
 
 export const routes: Array<Route> = [
     {
+        key: 'login-route',
+        title: 'Login',
+        path: '/',
+        enabled: true,
+        component: Login
+    },
+    {
         key: 'home-route',
         title: 'Home',
-        path: '/',
+        path: '/home',
         enabled: true,
         component: Home
     },
@@ -33,13 +40,6 @@ export const routes: Array<Route> = [
         path: '/about',
         enabled: true,
         component: About
-    },
-    {
-        key: 'login-route',
-        title: 'Login',
-        path: '/login',
-        enabled: true,
-        component: Login
     },
 ]
 

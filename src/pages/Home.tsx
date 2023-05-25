@@ -43,7 +43,7 @@ interface Home {
         <Box>
         <Box sx={{ maxWidth: 1000, margin: "auto", marginTop: '300px', display: 'flex'}}>
         <Card sx={{ display: "flex" }}>
-        <Box sx={{ display: "flex", justifyContent: "space-between", marginTop: 2, marginBottom: 4 }}>
+        <Box sx={{ display: "flex", justifyContent: "space-between", marginTop: 2, marginBottom: 4, }}>
           <Button onClick={nextSlide}>🢀</Button>
         </Box>
           <CardMedia sx={{ width: 3000, height: 400 }} image={home[activeIndex].imageUrl} />

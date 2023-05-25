@@ -32,10 +32,26 @@ export default function SignIn() {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
+    // console.log({
+    //   email: data.get('email'),
+    //   password: data.get('password'),
+    // });
+    let userName = data.get('email')
+    let password = data.get('password')
+    let login = {userName: userName, password: password}
+    let loginJson = JSON.stringify(login);
+    //Enviar los datos al backend
+    fetch('http://localhost:8080/api/login/'+ userName, {
+      method: 'Get'  
+    })
+      .then(response => response.json())
+      .then(result => {
+        result.props.navigation.
+      })
+      .catch(error => {
+        console.error(error);
+      });
+    console.log(loginJson)
   };
 
   return (
@@ -54,7 +70,7 @@ export default function SignIn() {
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Sign in
+            Login
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
@@ -85,7 +101,7 @@ export default function SignIn() {
               type="submit"
               fullWidth
               variant="contained"
-              sx={{ mt: 3, mb: 2 }}
+              sx={{ mt: 3, mb: 2, }}
             >
               Sign In
             </Button>

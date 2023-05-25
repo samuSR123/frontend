@@ -12,6 +12,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { useNavigate } from "react-router-dom";
 
 function Copyright(props: any) {
   return (
@@ -28,7 +29,8 @@ function Copyright(props: any) {
 
 const theme = createTheme();
 
-export default function SignIn() {
+export default function SignIn() { 
+  const navigate = useNavigate();
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -41,17 +43,21 @@ export default function SignIn() {
     let login = {userName: userName, password: password}
     let loginJson = JSON.stringify(login);
     //Enviar los datos al backend
-    fetch('http://localhost:8080/api/login/'+ userName, {
+    fetch('http://localhost:8080/api/login?user_name='+ userName, {
       method: 'Get'  
     })
       .then(response => response.json())
       .then(result => {
-        result.props.navigation.
+        if (result.length !== 0){
+          navigate("/home")
+        }
+        console.log(result)
       })
       .catch(error => {
         console.error(error);
       });
     console.log(loginJson)
+    console.log(Response)
   };
 
   return (

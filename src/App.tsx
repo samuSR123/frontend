@@ -35,7 +35,7 @@ function App() {
         flexDirection="column"
       >
         <Router>
-          <Box sx={{marginBottom: '300px'}}><Navbar></Navbar></Box>
+          <Box id="padre" sx={{marginBottom: '300px'}}><Navbar></Navbar></Box>
           <Routes>
             <Route>
               {appRoutes.map((route) => 

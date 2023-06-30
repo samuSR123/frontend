@@ -1,5 +1,5 @@
 import react, {ReactElement, FC} from "react";
-import {Box, Card, Typography, Button} from "@mui/material";
+import {Box, Card, Typography, Button, Container} from "@mui/material";
 const About: FC<any> = () : ReactElement => {
     return (
         <Box sx= {{
@@ -23,6 +23,6 @@ const About: FC<any> = () : ReactElement => {
         <Button sx={{color:'black', backgroundColor: 'secondary.dark', marginLeft: '40%', width: '20%', marginBottom: '20px'}}>Ver mas</Button>
         </Box>
     )
-    }
+}
 
 export default About;

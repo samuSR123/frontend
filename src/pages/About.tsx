@@ -10,7 +10,7 @@ const About: FC<any> = () : ReactElement => {
             alignItems:'center',
             width: "600px",
             marginBottom:'40px',
-        }}><img width="600px" height="250px" src="https://www.mcdonalds.cl/uploads/Portada_Desktop_1200x520_4809bd21ee.jpg"/>
+        }}><img width="600px" height="300px" src="https://img.unocero.com/2017/04/ronald-1.jpg"/>
         <Typography textAlign='center' variant="h3">About</Typography>
         <Typography padding='5px' marginBottom="20px" marginTop="10px" variant="body1" fontSize="16px">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Natus nobis maxime dolorem? Quasi ab voluptatibus distinctio impedit, cumque dolorum adipisci veritatis 

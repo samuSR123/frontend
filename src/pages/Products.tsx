@@ -53,7 +53,7 @@ const Products: FC<any> = () : ReactElement => {
                 marginBottom: "50px",
                 marginTop: '50px'}}>
                 <Box>
-                <Card sx={{ maxWidth: 345, }}>
+                <Card sx={{ maxWidth: 345, height: 420}}>
                     <CardActionArea>
                         <CardMedia
                             component="img"
@@ -61,18 +61,17 @@ const Products: FC<any> = () : ReactElement => {
                             image="https://www.mcdonalds.cl/uploads/WEB_03_6bb0148945.png"
                             alt="combo"
                         />
-                        <CardContent>
+                        <CardContent sx={{ height: 230 }}>
                             <Typography gutterBottom variant="h5" component="div">
-                                Comida
+                                Big mac
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                                Vero saepe dolore ullam quae nemo laudantium laborum natus 
-                                quasi ab odit accusantium dolor recusandae quos, explicabo alias 
-                                animi qui amet maxime.
+                                Quizas sean las dos Hamburguesas de carne 100% vacuno , con nuestra Salsa Bigmac y 
+                                queso derretido, el toque de cebolla el crocante de la Lechuga y pepinillos lo
+                                que la hace la hamburguesa mas famosa del mundo. Un sabor Unico. 562 kcal
                             </Typography>
                             <Typography fontWeight='800' textAlign='center' marginTop='5px' gutterBottom variant="body2" component="div">
-                                1900$
+                                6000$
                             </Typography>
                         </CardContent>
                     </CardActionArea>
@@ -84,7 +83,7 @@ const Products: FC<any> = () : ReactElement => {
                 </Card>
                 </Box>
                 <Box>
-                <Card sx={{ maxWidth: 345,}}>
+                <Card sx={{ maxWidth: 345, height: 420}}>
                     <CardActionArea>
                         <CardMedia
                             component="img"
@@ -92,18 +91,16 @@ const Products: FC<any> = () : ReactElement => {
                             image="https://www.mcdonalds.cl/uploads/WEB_1440_X650_859ceed85e.png"
                             alt="combo"
                         />
-                        <CardContent>
+                        <CardContent sx={{ height: 230 }}>
                             <Typography gutterBottom variant="h5" component="div">
-                                Comida
+                                Papas Grandes
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                                Vero saepe dolore ullam quae nemo laudantium laborum natus 
-                                quasi ab odit accusantium dolor recusandae quos, explicabo alias 
-                                animi qui amet maxime.
+                                Las aliadas perfectas para cualquier comida. Disfruta de nuestras mundialmente 
+                                famosas Papas, crujientes y deliciosas, no vas a parar hasta terminarlas todas. 374 kcal
                             </Typography>
                             <Typography fontWeight='800' textAlign='center' marginTop='5px' gutterBottom variant="body2" component="div">
-                                1900$
+                                3000$
                             </Typography>
                         </CardContent>
                     </CardActionArea>
@@ -115,7 +112,7 @@ const Products: FC<any> = () : ReactElement => {
                 </Card>
                 </Box>
                 <Box>
-                <Card sx={{ maxWidth: 345}}>
+                <Card sx={{ maxWidth: 345, height: 420}}>
                     <CardActionArea>
                         <CardMedia
                             component="img"
@@ -123,18 +120,15 @@ const Products: FC<any> = () : ReactElement => {
                             image="https://pbs.twimg.com/media/FS7PcKsXEAAqz6l.jpg"
                             alt="combo"
                         />
-                        <CardContent>
+                        <CardContent  sx={{ height: 230 }}>
                             <Typography gutterBottom variant="h5" component="div">
-                                Comida
+                                McCombo
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                                Vero saepe dolore ullam quae nemo laudantium laborum natus 
-                                quasi ab odit accusantium dolor recusandae quos, explicabo alias 
-                                animi qui amet maxime.
+                                Big mac + Papas Grandes + Bebida + Regalo a elección "Latte regular, Chicken kids o Empanadas". 1200 kcal
                             </Typography>
                             <Typography fontWeight='800' textAlign='center' marginTop='5px' gutterBottom variant="body2" component="div">
-                                1900$
+                                8000$
                             </Typography>
                         </CardContent>
                     </CardActionArea>

@@ -47,4 +47,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Login
 
-(https://github.com/samuSR123/repositorio/blob/feature/newlogin/img/Diagrama%20en%20blanco.png)
+[![](https://github.com/samuSR123/repositorio/blob/feature/newlogin/img/Diagrama%20en%20blanco.png)](https://github.com/samuSR123/repositorio/blob/feature/newlogin/img/Diagrama%20en%20blanco.png "Modelo")
+

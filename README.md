@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ## `yarn i`
 
-install libraries
+install libraries, frameworks and other development tools for your project
 
 ### `yarn start`
 

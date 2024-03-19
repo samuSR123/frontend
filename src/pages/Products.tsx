@@ -58,7 +58,7 @@ const Products: FC<any> = () : ReactElement => {
                         <CardMedia
                             component="img"
                             height="140"
-                            image="https://www.mcdonalds.cl/uploads/WEB_03_6bb0148945.png"
+                            image="https://hips.hearstapps.com/hmg-prod/images/big-mac-1557313345.jpg?crop=1xw:1xh;center,top&resize=980:*"
                             alt="combo"
                         />
                         <CardContent sx={{ height: 230 }}>
@@ -88,7 +88,7 @@ const Products: FC<any> = () : ReactElement => {
                         <CardMedia
                             component="img"
                             height="140"
-                            image="https://www.mcdonalds.cl/uploads/WEB_1440_X650_859ceed85e.png"
+                            image="https://latiapeta.cl/wp-content/uploads/2021/02/Papas-fritas-grande_Inka-food-Santiago-scaled-1.jpg"
                             alt="combo"
                         />
                         <CardContent sx={{ height: 230 }}>
@@ -117,7 +117,7 @@ const Products: FC<any> = () : ReactElement => {
                         <CardMedia
                             component="img"
                             height="140"
-                            image="https://pbs.twimg.com/media/FS7PcKsXEAAqz6l.jpg"
+                            image="https://cache-mcd-ecommerce.appmcdonalds.com/images/CL/DLV_26739.png"
                             alt="combo"
                         />
                         <CardContent  sx={{ height: 230 }}>

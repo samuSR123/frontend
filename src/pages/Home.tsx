@@ -13,17 +13,17 @@ interface Home {
     {
       id: 1,
 
-      imageUrl: "https://i.redd.it/4ximx31qenl11.jpg",
+      imageUrl: "https://image.cnbcfm.com/api/v1/image/104203806-GettyImages-625629320.jpg?v=1553632752",
     },
     {
       id: 2,
 
-      imageUrl: "https://nypost.com/wp-content/uploads/sites/2/2019/01/ap_19014545192537.jpg?quality=75&strip=all",
+      imageUrl: "https://www.meioemensagem.com.br/wp-content/uploads/2023/01/McDonalds-Loja_Credito_Shutterstock.jpg",
     },
     {
       id: 3,
 
-      imageUrl: "https://image.cnbcfm.com/api/v1/image/104203806-GettyImages-625629320.jpg?v=1553632752",
+      imageUrl: "https://i.redd.it/4ximx31qenl11.jpg",
     },
   ];
   

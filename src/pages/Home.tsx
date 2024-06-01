@@ -13,7 +13,7 @@ interface Home {
     {
       id: 1,
 
-      imageUrl: "https://image.cnbcfm.com/api/v1/image/104203806-GettyImages-625629320.jpg?v=1553632752",
+      imageUrl: "https://ossom.cl/wp-content/uploads/2022/10/5d6c5142-0538-4e7a-af3c-3cb0383d635d.jpg",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ interface Home {
     {
       id: 3,
 
-      imageUrl: "https://i.redd.it/4ximx31qenl11.jpg",
+      imageUrl: "https://ossom.cl/wp-content/uploads/2022/10/5d6c5142-0538-4e7a-af3c-3cb0383d635d.jpg",
     },
   ];
   
@@ -64,7 +64,7 @@ interface Home {
                 display: 'grid',
                 backgroundColor: 'whitesmoke'
             }}>
-            <img width="100%" height="200px" src="https://4.bp.blogspot.com/_VjFSFUqtEwA/TITVuAyNweI/AAAAAAAAJJ0/471sGydTRZ4/s1600/o5.jpg"/>
+            <img width="100%" height="200px" src="https://www.semana.com/resizer/RMcJAWsZXEOObRT8hUsMUXkNmQk=/arc-anglerfish-arc2-prod-semana/public/D7UDC76J6RCZ3BXWYAAKSQSJOY.jpg"/>
             <Typography textAlign="center" variant="h3">Home</Typography>
             <Typography padding='10px' marginBottom="10px" variant="body1" fontSize="16px">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Natus nobis maxime dolorem? Quasi ab voluptatibus distinctio impedit, cumque dolorum adipisci veritatis 
@@ -80,7 +80,7 @@ interface Home {
                 display: 'grid',
                 backgroundColor: 'whitesmoke'
             }}>
-            <img width="100%" height="200px" src="https://worldwideinterweb.com/wp-content/uploads/2017/10/ronald-mcdonald-fail.jpg"/>
+            <img width="100%" height="200px" src="https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/KCHROPMYLBG3RG7ULPHH2QIN6M.jpg"/>
             <Typography textAlign="center" variant="h3">Home</Typography>
             <Typography padding='10px' marginTop="10px" variant="body1" fontSize="16px">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Natus nobis maxime dolorem? Quasi ab voluptatibus distinctio impedit, cumque dolorum adipisci veritatis 
